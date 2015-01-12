@@ -1,6 +1,5 @@
 body, html, #body{
 	height: 100%;
-	width: 100%;
 	background-color: #BB0000;
 	padding: 0;
 }
@@ -13,6 +12,7 @@ body, html, #body{
 h1{
 	text-align: center;
 	font-family: Lato;
+	color: white;
 }
 
 .images{
@@ -21,6 +21,7 @@ h1{
 	width: 100%;
 	background-size: cover;
 	cursor: pointer;
+	margin: 0px -25px -15px 0px;
 	
 }
 .images:active{
@@ -33,4 +34,9 @@ footer{
 	text-align: center;
 	padding: 20px;
 	font-family: Lato;
+	margin-top: 30px;
+}
+a{
+	text-decoration: none;
+	color: white;
 }

@@ -12,6 +12,7 @@ body, html, #body{
 h1{
 	text-align: center;
 	font-family: Lato;
+	color: white;
 }
 
 #images.imageOne{
@@ -34,4 +35,9 @@ footer{
 	text-align: center;
 	padding: 20px;
 	font-family: Lato;
+	margin-top: 30px;
+}
+a{
+	text-decoration: none;
+	color: white;
 }
