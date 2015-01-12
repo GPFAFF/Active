@@ -1,0 +1,36 @@
+body, html, #body{
+	height: 100%;
+	width: 100%;
+	background-color: #BB0000;
+	padding: 0;
+}
+
+.container{
+	margin: 0 auto;
+	text-align: center;
+
+}
+h1{
+	text-align: center;
+	font-family: Lato;
+}
+
+.images{
+	background-image: url("../img/cardale1.jpg");
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	cursor: pointer;
+	
+}
+.images:active{
+	background-image: url("../img/cardale.jpg");
+	
+	
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	font-family: Lato;
+}
